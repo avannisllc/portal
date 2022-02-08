@@ -1,0 +1,177 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue1: #356ca0;
+$blue: #607d8b;
+$dark-grey: #383838;
+$red: #C23214;
+$pink: #ea006f;
+
+$font-family1: 'Alef', sans-serif;
+$font-family2: 'Annie Use Your Telescope', cursive;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Architects Daughter', cursive;
+$font-family5: 'Average', serif;
+$font-family6: 'Be Vietnam', sans-serif;
+$font-family7: 'Barlow Semi Condensed', sans-serif;
+$font-family8: 'Big Shoulders Display', cursive;
+$font-family9: 'Courgette', cursive;
+$font-family10: 'Kalam', cursive;
+$font-family11: 'Mada', sans-serif;
+$font-family12: 'Rock Salt', cursive;
+$font-family13: 'Special Elite', cursive;
+
+
+.HRUploadContainer{
+   display: flex;
+   justify-content: center;
+   border: 2px $dark-blue solid;
+   border-radius: 5px;
+   height: 80px;
+   // min-width: 750px;
+   width: 1000px;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+.HRupload-form{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 18px;
+   height: 40px;
+   // width: 1000px;
+}
+.HRupload-text{
+   display: flex;
+   width: 140px;
+   color: $dark-grey;
+   font-family: $font-family7;
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: 5px;
+}
+
+.HRselectedFile{
+   display: flex;
+   align-items: center;
+   height: 26px;
+   width: 220px;
+   font-size: 14px;
+   background: white;
+   border-radius: 8px 0 0 8px;
+   border: 2px $blue solid;
+   padding-left: 4px;
+   font-family: $font-family7;
+   font-weight: bold;
+   color: #333333;
+   margin-bottom: 10px;
+}
+.selectedFile{
+   color: rgba(112, 111, 111, 0.781);
+   padding-left: 8px;
+   overflow: hidden;
+}
+.HRUploadBox{
+   display: flex;
+   flex-direction: row;
+   width: 280px;
+}
+.HRupload-Label{
+   display: flex;
+   width: 225px;
+   flex-direction: column;
+   margin-left: 10px;
+   // margin-top: 5px;
+}
+.HRupload-Label1{
+   display: flex;
+   width: 225px;
+   flex-direction: column;
+   margin-left: 5px;
+   // margin-top: 5px;
+}
+
+.HRupload-Label2{
+   display: flex;
+   width: 280px;
+   flex-direction: column;
+   margin-left: 5px;
+   margin-top: 10px;
+}
+
+.HRuploadTitle{
+   display: flex;
+   width: 120px;
+   margin-left: 4px;
+   font-size: 10px;
+   color: $dark-blue;
+   justify-content: flex-start;
+   // align-items: flex-end;
+}
+.fileName-input-field {
+   display: flex;
+   height: 24px;
+   width: 200px;
+   background: white;
+   border-radius: 8px;
+   border: 2px $blue solid;
+   margin-right: 15px;
+}
+.HRupload-input-field{
+   display: flex;
+   height: 24px;
+   width: 200px;
+   padding-left: 8px;
+   background: white;
+   border-radius: 8px;
+   border: 2px $blue solid;
+   margin-right: 20px;
+}
+
+.inputfile{
+   display: none;
+
+}
+.HRUpload-labelSelectedFile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 26px;
+   width: 40px;
+   font-size: 14px;
+   background: rgb(236, 235, 235);
+   border-radius: 0 8px 8px 0;
+   border: 2px  $blue solid;
+   margin: 0px 10px 10px -2px;
+   box-shadow: 1px 1px 2px 1px lightgray;
+}
+.hrfolderIcon{
+   font-size: 18px;
+   color: $blue;
+}
+
+.hrfolderIcon:hover {
+   color: black;
+}
+
+.HRUpload-Button{
+   display: flex;
+   align-items: center;
+   background-color: rgb(248, 244, 244);
+   height: 30px;
+   width: 40px;
+   border: 2px $blue solid;
+   border-radius: 8px;
+   margin-top: 12px;
+   margin-left: 5px;
+}
+
+.addHRCircleIcon{
+   display: flex;
+   font-size: 18px;
+   color: $blue;
+}
+
+.addHRCircleIcon:hover {
+   color: black;
+}
+

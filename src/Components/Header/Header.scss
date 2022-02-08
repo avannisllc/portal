@@ -1,0 +1,133 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue1: #356ca0;
+$blue: #607d8b;
+$dark-grey: #383838;
+$font-family1: 'Alef', sans-serif;
+$font-family2: 'Annie Use Your Telescope', cursive;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Architects Daughter', cursive;
+$font-family5: 'Average', serif;
+$font-family6: 'Be Vietnam', sans-serif;
+$font-family7: 'Barlow Semi Condensed', sans-serif;
+$font-family8: 'Big Shoulders Display', cursive;
+$font-family9: 'Courgette', cursive;
+$font-family10: 'Kalam', cursive;
+$font-family11: 'Mada', sans-serif;
+$font-family12: 'Rock Salt', cursive;
+$font-family13: 'Special Elite', cursive;
+
+.headerBox{
+   display: flex;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   width: 100vw;
+   height: 60px;
+   border-bottom: solid $dark-blue 2px;
+}
+.customer-logo {
+   display: flex;
+   justify-content: flex-start;
+   align-self: flex-end;
+   margin-left: 40px;
+   margin-bottom: 5px;
+   height: 48px;
+   border-radius: 10px;
+}
+.headerText{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 290px;
+   // margin-top: 10px;
+   margin-left: 30px;
+   margin-right: 40px;
+   color: $dark-blue;
+   font-family: $font-family7;
+   font-size: 24px;
+   font-weight: bold;
+   height: 60px;
+}
+.box{
+   display: flex;
+   justify-content: flex-end;
+   width: 600px;
+}
+
+.header-links {
+   display: flex;
+   justify-content: flex-end;
+   align-self: flex-end;
+   margin-left: 4px;
+   color: $dark-blue;
+   font-family: $font-family7;
+   // background-color: #607d8b;
+   text-decoration: none;
+   font-size: large;
+   font-weight: bold;
+   width: auto;
+   height: 30px;
+   border-radius: 25px;
+}
+
+.header-links:hover {
+   color: #515151;
+   font-weight: bolder;
+}
+
+
+.icon{
+   margin-right: 4px;
+}
+.icon1{
+   margin-right: 5px;
+}
+.icon2{
+   margin-left: 5px;
+}
+
+.header-back {
+   display: flex;
+   justify-self: flex-end;
+   align-self: flex-end;
+   margin: 0 2px 1px 18px;
+   color: $dark-blue;
+   font-family: $font-family7;
+   font-size: large;
+   font-weight: bold;
+   background: none;
+   width: auto;
+   height: 30px;
+   border: none;
+   border-radius: 25px;
+}
+
+.header-back:hover {
+   color: #515151;
+   font-weight: bolder;
+}
+
+.header-logout {
+   display: flex;
+   justify-self: flex-end;
+   align-self: flex-end;
+   margin: 0 50px 1px 10px;
+   color: $dark-blue;
+   font-family: $font-family7;
+   font-size: large;
+   font-weight: bold;
+   background: none;
+   width: auto;
+   height: 30px;
+   border: none;
+   border-radius: 25px;
+}
+
+.header-logout:hover {
+   color: #515151;
+   font-weight: bolder;
+}

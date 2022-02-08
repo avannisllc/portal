@@ -1,0 +1,121 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue: #607d8b;
+$font-family1: 'Crimson Pro', serif;
+$font-family2: 'Heebo', sans-serif;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Montaga', serif;
+$font-family5: 'Noto Serif TC', serif;
+$font-family6: 'Prompt', sans-serif;
+$font-family7: 'Radley', serif;
+$font-family8: 'Roboto Condensed', sans-serif;
+
+.customerContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: $light-gray;
+   width: 100vw;
+   height: 100vh;
+   overflow-y: scroll;
+}
+
+.custHeader{
+   display: flex;
+   height: 60px;
+   width: 90.6vw;
+   font-size: 36px;
+   color: #1e3a4e;
+   font-family: $font-family3;
+   align-self: flex-start;
+   margin: 15px 0 -7px 30px;
+   // flex: 1;
+}
+.custheaderText{
+   display: flex;
+   height: 40px;
+   margin-left: 16px;
+   margin-bottom: 2px;
+   font-size: 20px;
+   justify-content: flex-start;
+   align-self: center;
+   flex: 8;
+}
+.customer-button{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 12px;
+   margin-right: 20px;
+   width: 100px;
+   height: 26px;
+   background-color: white;
+   border: 2px $dark-blue solid;
+   border-radius: 6px;
+   color: $dark-blue;
+   // font-size: 12px;
+}
+.addCustIcon{
+   display: flex;
+   width: 8px;
+   margin-right: 6px;
+}
+.customer-text{
+   display: flex;
+   font-size: 12px;
+}
+.customer-button:hover{
+   display: flex;
+   color: black;
+   border: 2px black solid;
+   background-color: #f7fbfd;
+   .addCustIcon{
+      color: black;
+   }
+}
+
+.searchCustomer{
+   display: flex;
+   height: 20px;
+   padding-left: 4px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   margin-right: 15px;
+   border: 2px  $dark-blue solid;
+   border-radius: 6px;
+   justify-self: flex-end;
+   align-self: center;
+}
+
+.tableContainer{
+   display: flex;
+   width:1350px;
+   height: 700px;
+   margin-left: 55px;
+   margin-right:40px;
+   overflow-y: scroll;
+}
+
+.table{
+   display: flex;
+   width:1300px;
+   margin-left: 10px;
+}
+
+.custmrIcon{
+   color: $dark-blue;
+}
+
+.customerLogo{
+   width: 100px;
+   height: auto;
+}
+
+.colorBox{
+   display: flex;
+   height: 8px;
+   width: 50px;
+   border: 1px  black solid;
+   margin-left: 2px;
+}

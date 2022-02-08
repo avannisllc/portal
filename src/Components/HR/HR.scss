@@ -1,0 +1,45 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue1: #356ca0;
+$blue: #607d8b;
+$dark-grey: #383838;
+$red: #C23214;
+$pink: #ea006f;
+
+$font-family1: 'Alef', sans-serif;
+$font-family2: 'Annie Use Your Telescope', cursive;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Architects Daughter', cursive;
+$font-family5: 'Average', serif;
+$font-family6: 'Be Vietnam', sans-serif;
+$font-family7: 'Barlow Semi Condensed', sans-serif;
+$font-family8: 'Big Shoulders Display', cursive;
+$font-family9: 'Courgette', cursive;
+$font-family10: 'Kalam', cursive;
+$font-family11: 'Mada', sans-serif;
+$font-family12: 'Rock Salt', cursive;
+$font-family13: 'Special Elite', cursive;
+
+
+.hrContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 8px;
+   width: 100%;
+   overflow-y: auto;
+   overflow-x: auto;
+   
+}
+
+.hrtableContainer{
+   display: flex;
+   width: 1200px;
+   margin-top: 30px;
+}
+
+// .tableColumn{
+//    width: auto;
+// }
+
+

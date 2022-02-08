@@ -1,0 +1,109 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue: #607d8b;
+$font-family3: 'Merriweather', serif;
+
+.unsubViewContainer{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100vh;
+   background-color: $light-gray;
+}
+.unsub-view-label{
+   display: flex;
+   width: 400px;
+   // margin-top: 40px;
+   margin-right: 10px;
+   color: $dark-blue;
+}
+.unsubViewBox{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 1100px;
+   height: 500px;
+   // margin-top: 10px;
+   margin-left: 80px;
+}
+.unsubViewForm{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   // margin-left: 370px;
+   width: 830px;
+   height: 80px;
+   margin-top: 30px;
+   
+}
+.getEmail-form{
+   display: flex;
+   width: 600px;
+   justify-content: flex-start;
+   align-items: center;
+   flex: 1;
+   margin-left: 10px;
+}
+.input-email-box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 400px;
+
+}
+.unsubView-input-field {
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 10px;
+   align-items: center;
+   height: 35px;
+   width: 290px;
+   background-color: white;
+   border-radius: 8px;
+   border: 1px;
+   border-bottom: white;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.unsubViewEmail-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 90px;
+   height: 36px;
+   border:none;
+   color: $dark-blue;
+   border-radius: 10px;
+   background-color: #ffffff;
+   font-size: 18px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   border: none;
+
+}
+.unsubViewPaper{
+   display: flex;
+   min-width: 1000px;
+}
+.unsubViewTableContainer{
+   display: flex;
+   width: 1200px;
+
+}
+.UnsubTableBox{
+   display: flex;
+   padding: 10px;
+   
+}
+.unsubViewTable{
+   display: flex;
+   flex: 1;
+   width: 90%;
+   height: auto;
+}
+
+.noUser{
+   display: flex;
+   font-size: 25px;
+   color: $dark-blue;
+   margin-bottom: 20px;
+}

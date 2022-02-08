@@ -3,10 +3,31 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Router} from 'react-router-dom';
+import {AuthProvider} from './Context/AuthContext';
+import {FileShareProvider} from './Context/FileShareContext';
+import {CustmrsProvider} from './Context/CustmrsContext';
+import {UnsubProvider} from './Context/UnsubContext';
+import { HRProvider } from './Context/HRContext';
+import { IntializeAxios } from './Utils/Utils';
+import history from './history';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router history={history}>
+    <AuthProvider>
+        <IntializeAxios/>
+        <FileShareProvider>
+          <CustmrsProvider>
+            <UnsubProvider>
+              <HRProvider>
+                <App/>
+              </HRProvider>
+            </UnsubProvider>
+          </CustmrsProvider>
+        </FileShareProvider>
+    </AuthProvider>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

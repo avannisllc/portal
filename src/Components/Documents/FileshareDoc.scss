@@ -1,0 +1,68 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue: #607d8b;
+$font-family1: 'Crimson Pro', serif;
+$font-family2: 'Heebo', sans-serif;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Montaga', serif;
+$font-family5: 'Noto Serif TC', serif;
+$font-family6: 'Prompt', sans-serif;
+$font-family7: 'Radley', serif;
+$font-family8: 'Roboto Condensed', sans-serif;
+
+
+.fileshare-docsContainer{
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   flex-direction: column;
+   // align-items: center;
+   
+}
+.fileshare-docHeader{
+   display: flex;
+   height: 60px;
+   width: 90.6vw;
+   margin-top: 40px;
+   font-size: 36px;
+   color: #1e3a4e;
+   font-family: $font-family3;
+   align-self: flex-start;
+   margin: 15px 0 -7px 30px;
+   // flex: 1;
+}
+
+.fileshare-docheaderText{
+   display: flex;
+   height: 35px;
+   margin-left: 16px;
+   margin-bottom: 2px;
+   font-size: 20px;
+   justify-content: flex-start;
+   align-self: center;
+   flex: 8;
+}
+.fileshare-doc-support-video-container{
+   display: flex;
+   justify-content: flex-start;
+   width: 1000px;
+   margin-top: 20px;
+   margin-left: 60px;
+   
+}
+.fileshare-doc-support-video-label{
+   display: flex;
+   flex-direction: column;
+}
+.fileshare-doc-support-video-text{
+   display: flex;
+   margin-bottom: 8px;
+   font-size: 18px;
+   font-family: $font-family7;
+   font-weight: bold;
+   color: $dark-blue;
+
+}
+.fileshare-doc-support-video{
+   display: flex;
+}

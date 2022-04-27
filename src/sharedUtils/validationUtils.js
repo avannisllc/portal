@@ -10,7 +10,7 @@ let SignupSchema = yup.object().shape({
       .string()
       .required("This field is required.")
       .matches(
-         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{12,}$/,
+         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/,
          "Must Contain 12 Characters, One Uppercase, One Lowercase, One Number and one special case Character"
       ),
    ConfirmPASSWD: yup
@@ -28,6 +28,13 @@ let UpdateUserSchema = yup.object().shape({
    CONTACT_FNAME: yup.string().required("This field is required."),
    CONTACT_LNAME: yup.string().required("This field is required."),
    USERNAME: yup.string().required("This field is required."),
+   PASSWD: yup
+      .string()
+      .required("This field is required.")
+      .matches(
+         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/,
+         "Must Contain 12 Characters, One Uppercase, One Lowercase, One Number and one special case Character"
+      ),
    EMAIL: yup
       .string()
       .email("Invalid email")

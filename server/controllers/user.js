@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 const utils = require('../../src/sharedUtils/validationUtils');
 const SignupSchema = utils.SignupSchema;
+const UpdateUserSchema = utils.UpdateUserSchema;
 
 let {
    SESSION_SECRET
@@ -169,8 +170,8 @@ module.exports = {
             const [result] = await pool.query(sql, value)
             hash = result[0].PASSWD
             //we use a fake password for validation here
-            PASSWD = '$$1Aa$$$$$$$'
-            ConfirmPASSWD = '$$1Aa$$$$$$$'
+            PASSWD = '$$1Aa$$$$$$$$'
+            ConfirmPASSWD = '$$1Aa$$$$$$$$'
          }catch(err){
             console.log(err)
          } 
@@ -181,7 +182,7 @@ module.exports = {
       const sql2 = 'UPDATE AVA_USERS SET COMPANY_NAME = ?, CONTACT_FNAME = ?, CONTACT_LNAME = ?, USERNAME = ?, PASSWD = ?, EMAIL = ?, UPDATE_DATE = ?, APP_ACCESS = ?, DEACTIVATE = ? WHERE USER_NUMBER = ?'
       const values = [COMPANY_NAME, CONTACT_FNAME, CONTACT_LNAME, USERNAME, hash, EMAIL, UPDATE_DATE, APP_ACCESS, DEACTIVATE, USER_NUMBER]
 
-      const isValid = await SignupSchema.isValid({
+      const isValid = await UpdateUserSchema.isValid({
          COMPANY_NAME, 
          CONTACT_FNAME, 
          CONTACT_LNAME,

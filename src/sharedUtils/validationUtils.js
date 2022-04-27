@@ -10,7 +10,7 @@ let SignupSchema = yup.object().shape({
       .string()
       .required("This field is required.")
       .matches(
-         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/,
+         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{12,}$/,
          "Must Contain 12 Characters, One Uppercase, One Lowercase, One Number and one special case Character"
       ),
    ConfirmPASSWD: yup

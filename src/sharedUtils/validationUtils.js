@@ -6,11 +6,7 @@ let SignupSchema = yup.object().shape({
    CONTACT_FNAME: yup.string().required("This field is required."),
    CONTACT_LNAME: yup.string().required("This field is required."),
    USERNAME: yup.string().required("This field is required."),
-   PASSWD: yup.string()
-      .required("This field is required.")
-      .matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{12,}$/,
-         "Must Contain 12 Characters, One Uppercase, One Lowercase, One Number and one special case Character"
-      ),
+   PASSWD: yup.string().required("This field is required.").matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{12,}$/, "Must Contain 12 Characters, One Uppercase, One Lowercase, One Number and one special case Character"),
    ConfirmPASSWD: yup.string()
       .oneOf([yup.ref('PASSWD'), null], 'Passwords must match')
       .required('Confirm Password is required'),

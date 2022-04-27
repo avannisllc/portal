@@ -13,7 +13,7 @@ let SignupSchema = yup.object().shape({
    EMAIL: yup
    .string()
    .email("Invalid email")
-   .required("This field is required."),
+   .required("This field is required.")
 });
 
 let UpdateUserSchema = yup.object().shape({
@@ -28,7 +28,7 @@ let UpdateUserSchema = yup.object().shape({
       ),
    EMAIL: yup.string()
       .email("Invalid email")
-      .required("This field is required."),
+      .required("This field is required.")
 });
 
 let ResetPWSchema = yup.object().shape({
@@ -39,7 +39,7 @@ let ResetPWSchema = yup.object().shape({
       ),
    ConfirmPASSWD: yup.string()
       .oneOf([yup.ref('PASSWD'), null], 'Passwords must match')
-      .required('Confirm Password is required'),
+      .required('Confirm Password is required')
 });
 
 module.exports = {

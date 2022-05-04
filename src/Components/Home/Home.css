@@ -1,0 +1,164 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logoBox {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.home-headerText {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+  margin-right: 140px;
+  color: #28527a;
+  font-size: 25px;
+  font-family: "Special Elite", cursive;
+  flex: 2;
+}
+
+.homeLogo {
+  display: flex;
+  margin: 20px 10px 10px 40px;
+  width: 440px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.logoutbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-right: 35px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logoutBox {
+  display: flex;
+  align-items: center;
+}
+
+.logouttext {
+  display: flex;
+  color: #28527a;
+  font-size: 20px;
+  margin-left: 8px;
+  font-family: "Special Elite", cursive;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  height: 260px;
+}
+
+.dashboardContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 600px;
+  height: 270px;
+}
+
+.homebutton {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin-right: 40px;
+  border: 2px #28527a solid;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.homeBox {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin-right: 40px;
+  border: 2px #28527a solid;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.homebutton:hover {
+  border: 2px #607d8b solid;
+}
+
+.homebutton:hover .homeIcon {
+  color: #607d8b;
+}
+
+.homebutton:hover .text {
+  color: #607d8b;
+}
+
+.dashboardBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeIcon {
+  display: flex;
+  color: #28527a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: flex;
+  color: #28527a;
+  font-size: 24px;
+  font-family: "Special Elite", cursive;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -20px;
+  height: 50px;
+  width: 600px;
+  color: #28527a;
+  font-size: 24px;
+  font-family: "Special Elite", cursive;
+}
+
+.dashboardBox2 {
+  width: 200px;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -20px;
+  height: 40px;
+  width: 600px;
+  color: #28527a;
+  font-size: 24px;
+  font-family: "Special Elite", cursive;
+}
+/*# sourceMappingURL=Home.css.map */

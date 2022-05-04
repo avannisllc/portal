@@ -1,0 +1,56 @@
+.fileshare-docsContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.fileshare-docHeader {
+  display: flex;
+  height: 60px;
+  width: 90.6vw;
+  margin-top: 40px;
+  font-size: 36px;
+  color: #1e3a4e;
+  font-family: "Merriweather", serif;
+  align-self: flex-start;
+  margin: 15px 0 -7px 30px;
+}
+
+.fileshare-docheaderText {
+  display: flex;
+  height: 35px;
+  margin-left: 16px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  justify-content: flex-start;
+  align-self: center;
+  flex: 8;
+}
+
+.fileshare-doc-support-video-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.fileshare-doc-support-video-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.fileshare-doc-support-video-text {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-family: "Radley", serif;
+  font-weight: bold;
+  color: #28527a;
+}
+
+.fileshare-doc-support-video {
+  display: flex;
+}
+/*# sourceMappingURL=FileshareDoc.css.map */

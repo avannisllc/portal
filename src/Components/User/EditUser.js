@@ -124,7 +124,9 @@ const EditUser = (props) => {
                   :null}
                   {user.APP_ACCESS !== 'portal' ?
                      <label className="editUserLabel">
-                        <span className='editUserlabelTitle'>Deactivate</span>
+                        <span className='editUserlabelTitle'>
+                           Deactivate
+                        </span>
                         <Field
                            as='select'
                            className={'edituser-input-field'}
@@ -137,9 +139,11 @@ const EditUser = (props) => {
                      </label>
                   :null}
                   <label className="editUserLabel">
-                     <span className='editUserlabelTitle'>Password</span>
+                     <span className='editUserlabelTitle'>
+                        Password
+                     </span>
                      <Field
-                        placeholder='Please enter new password if you want to change it.'
+                        placeholder='Please enter current password or a new password.'
                         className={'edituser-input-field'+ (errors.PASSWD && touched.PASSWD ? ' is-invalid' : '')}
                         name="PASSWD"
                         label="PASSWD"
@@ -147,7 +151,9 @@ const EditUser = (props) => {
                         id="PASSWD"
                      />
                   </label>
-                  <div className='editUserpwNote'>* Must Contain 12 Characters, 1 Uppercase, 1 Lowercase, 1 Number and 1 special case character.</div>
+                  <div className='editUserpwNote'>
+                     * Must Contain 12 Characters, 1 Uppercase, 1 Lowercase, 1 Number and 1 special case character.
+                  </div>
                   
                   <button  
                      type='submit'

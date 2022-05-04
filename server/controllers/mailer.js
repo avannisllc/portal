@@ -13,20 +13,22 @@ let {
 module.exports = {
 
    forgotPassword: async (req ,res) => {
-      const {EMAIL} = req.params
-
-      const sql = 'SELECT USER_NUMBER, COMPANY_NAME, CONTACT_FNAME, CONTACT_LNAME, EMAIL FROM AVA_USERS WHERE EMAIL = ?'
-      const sql2='INSERT INTO AVA_RESETPW (EMAIL, RESET_TOKEN) VALUES (?,?)'
-      const value = [EMAIL]
-
+   
+      const {EMAIL} = req.params;
+   
+      const sql = 'SELECT USER_NUMBER, COMPANY_NAME, CONTACT_FNAME, CONTACT_LNAME, EMAIL FROM AVA_USERS WHERE EMAIL = ?';
+      const sql2='INSERT INTO AVA_RESETPW (EMAIL, RESET_TOKEN) VALUES (?,?)';
+      const value = [EMAIL];
+   
       const transporter = nodemailer.createTransport({
-            service: "Outlook365",
-            auth: {
-               user: RESETEMAIL,
-               pass: PASSWORD
-            }
-         })
-
+         host: 'smtp.sendgrid.net',
+         port: 465,
+         auth: {
+            user: 'apikey',
+            pass: PASSWORD
+         }
+      })
+      
       pool.query(sql, value).then(([result]) => {
          if(result.length>0){
             crypto.randomBytes(32,(err,buffer)=>{
@@ -43,7 +45,7 @@ module.exports = {
                      html:`
                      <p>Hi ${result[0].CONTACT_FNAME},</p>
                      <p>We heard that you forgot your password. Sorry about that!</p>
-                     <p>But don’t worry! You can click on this <a href="http://portal.avannis.com/password/reset/${result[0].EMAIL}/${RESET_TOKEN}">link</a> to reset your password:</p>
+                     <p>But don’t worry! You can click on this <a href="https://portal.avannis.com/password/reset/${result[0].EMAIL}/${RESET_TOKEN}">link</a> to reset your password:</p>
                      <h4>Hope you have an amazing day.</h4>
                      `
                   })
@@ -52,13 +54,10 @@ module.exports = {
                .catch((err)=> console.log(err));
             })
          }
-
-      }).catch((err) => {
-         console.log(err)
       })
-   },
-
+   }
 }
+
 
 function generateJWT(user) {
 

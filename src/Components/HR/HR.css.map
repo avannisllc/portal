@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAuBA,AAAA,YAAY,CAAA;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,IAAI;CAElB;;AAED,AAAA,iBAAiB,CAAA;EACd,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,MAAM;EACb,UAAU,EAAE,IAAI;CAClB",
+    "sources": [
+        "HR.scss"
+    ],
+    "names": [],
+    "file": "HR.css"
+}

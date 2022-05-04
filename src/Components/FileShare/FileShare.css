@@ -1,0 +1,291 @@
+.fileshareContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  overflow-y: auto;
+}
+
+.fileshareUploadBox {
+  display: flex;
+  justify-content: center;
+  border: 2px #28527a solid;
+  border-radius: 5px;
+  height: 80px;
+  width: 1100px;
+  margin-top: 20px;
+}
+
+.fileupload-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18px;
+  height: 40px;
+}
+
+.fileShare-text {
+  display: flex;
+  width: 100px;
+  color: #383838;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.fileshareSelect {
+  display: flex;
+  height: 30px;
+  width: 220px;
+  font-size: 17px;
+  background: white;
+  border-radius: 8px;
+  border: 2px #607d8b solid;
+  padding-left: 4px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  margin: 0px 10px 10px 0px;
+}
+
+.selectedFile {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  width: 230px;
+  font-size: 14px;
+  background: white;
+  border-radius: 8px 0 0 8px;
+  border: 2px #607d8b solid;
+  padding-left: 4px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.selectedFile {
+  color: rgba(112, 111, 111, 0.781);
+  padding-left: 8px;
+  overflow: hidden;
+}
+
+.fileshareBox {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+}
+
+.fileshare-Label {
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.fileshare-Label1 {
+  display: flex;
+  width: 220px;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.fileshare-Label2 {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+.fileNameTitle {
+  display: flex;
+  width: 120px;
+  margin-left: 4px;
+  font-size: 10px;
+  color: #28527a;
+  justify-content: flex-start;
+}
+
+.fileName-input-field {
+  display: flex;
+  height: 24px;
+  width: 220px;
+  background: white;
+  border-radius: 8px;
+  border: 2px #607d8b solid;
+  margin-right: 15px;
+}
+
+.fileNotation-input-field {
+  display: flex;
+  height: 24px;
+  width: 235px;
+  padding-left: 8px;
+  background: white;
+  border-radius: 8px;
+  border: 2px #607d8b solid;
+  margin-right: 20px;
+}
+
+.inputfile {
+  display: none;
+}
+
+.labelSelectedFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  width: 40px;
+  font-size: 14px;
+  background: #ecebeb;
+  border-radius: 0 8px 8px 0;
+  border: 2px #607d8b solid;
+  margin: 0px 10px 10px -2px;
+  box-shadow: 1px 1px 2px 1px lightgray;
+}
+
+.folderIcon {
+  font-size: 18px;
+  color: #607d8b;
+}
+
+.folderIcon:hover {
+  color: black;
+}
+
+.fileShareButton {
+  display: flex;
+  align-items: center;
+  background-color: #f8f4f4;
+  height: 30px;
+  width: 40px;
+  border: 2px #607d8b solid;
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.loadCircle {
+  margin-left: 4px;
+  color: #28527a;
+}
+
+.addCircleIcon {
+  display: flex;
+  font-size: 18px;
+  color: #607d8b;
+}
+
+.addCircleIcon:hover {
+  color: black;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  height: 35px;
+  width: 1400px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.fileshare-Label3 {
+  display: flex;
+  width: 300px;
+}
+
+.fileshareSelect2 {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  width: 220px;
+  font-size: 15px;
+  background: white;
+  border-radius: 6px 0 0 6px;
+  border: 2px #28527a solid;
+  padding-left: 4px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  color: #333333;
+}
+
+.clearSearchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f4f4;
+  height: 30px;
+  width: 30px;
+  margin-left: -2px;
+  color: #28527a;
+  font-weight: bold;
+  border: 2px #28527a solid;
+  border-radius: 0 6px 6px 0;
+}
+
+.searchFileshareFiles {
+  display: flex;
+  justify-self: flex-end;
+  height: 24px;
+  width: 180px;
+  font-weight: bold;
+  padding-left: 4px;
+  border: 2px #28527a solid;
+  border-radius: 6px;
+}
+
+.fileshareTable {
+  display: flex;
+  margin-top: 8px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.filesharetableContainer {
+  display: flex;
+  width: 1280px;
+}
+
+.allSlctDeleteBox {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  margin: 10px 0 5px 240px;
+}
+
+.deleteIcon {
+  color: #ea006f;
+  margin-right: 5px;
+}
+
+.allSelectDelBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f4f4;
+  height: 30px;
+  width: 182px;
+  color: #ea006f;
+  font-weight: bold;
+  border: 2px #ea006f solid;
+  border-radius: 6px;
+}
+
+.allSelectDelBtn:hover {
+  color: black;
+  border: 2px black solid;
+  background-color: #fae5eb;
+}
+
+.allSelectDelBtn:hover .deleteIcon {
+  color: black;
+}
+/*# sourceMappingURL=FileShare.css.map */

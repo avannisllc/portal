@@ -1,0 +1,93 @@
+.edituserform {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #607d8b;
+  overflow-y: auto;
+}
+
+.edituser-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+  background-color: #f8f8f8;
+  margin-top: 30px;
+  height: 760px;
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.edituser-formB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+  background-color: #f8f8f8;
+  margin-top: 30px;
+  height: 580px;
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.edituser-logo {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  height: 60px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.editUserLabel {
+  display: flex;
+  flex-direction: column;
+}
+
+.editUserlabelTitle {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 10px;
+  color: #28527a;
+  justify-content: flex-start;
+}
+
+.edituser-input-field {
+  height: 35px;
+  width: 360px;
+  background: white;
+  border-radius: 8px;
+  border: 1px;
+  margin-top: 3px;
+  border-bottom: white;
+  padding-left: 4px;
+  margin-bottom: 6px;
+}
+
+.edituser-input-field.is-invalid {
+  border-radius: 8px;
+  border: 1px solid red;
+}
+
+.editUserpwNote {
+  font-size: 8px;
+}
+
+.edituser-btn {
+  width: 260px;
+  height: 40px;
+  background-color: #28527a;
+  color: #f8f8f8;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+/*# sourceMappingURL=EditUser.css.map */

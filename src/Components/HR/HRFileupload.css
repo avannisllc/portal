@@ -1,0 +1,158 @@
+.HRUploadContainer {
+  display: flex;
+  justify-content: center;
+  border: 2px #28527a solid;
+  border-radius: 5px;
+  height: 80px;
+  width: 1000px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.HRupload-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18px;
+  height: 40px;
+}
+
+.HRupload-text {
+  display: flex;
+  width: 140px;
+  color: #383838;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.HRselectedFile {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  width: 220px;
+  font-size: 14px;
+  background: white;
+  border-radius: 8px 0 0 8px;
+  border: 2px #607d8b solid;
+  padding-left: 4px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.selectedFile {
+  color: rgba(112, 111, 111, 0.781);
+  padding-left: 8px;
+  overflow: hidden;
+}
+
+.HRUploadBox {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+}
+
+.HRupload-Label {
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.HRupload-Label1 {
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.HRupload-Label2 {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.HRuploadTitle {
+  display: flex;
+  width: 120px;
+  margin-left: 4px;
+  font-size: 10px;
+  color: #28527a;
+  justify-content: flex-start;
+}
+
+.fileName-input-field {
+  display: flex;
+  height: 24px;
+  width: 200px;
+  background: white;
+  border-radius: 8px;
+  border: 2px #607d8b solid;
+  margin-right: 15px;
+}
+
+.HRupload-input-field {
+  display: flex;
+  height: 24px;
+  width: 200px;
+  padding-left: 8px;
+  background: white;
+  border-radius: 8px;
+  border: 2px #607d8b solid;
+  margin-right: 20px;
+}
+
+.inputfile {
+  display: none;
+}
+
+.HRUpload-labelSelectedFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  width: 40px;
+  font-size: 14px;
+  background: #ecebeb;
+  border-radius: 0 8px 8px 0;
+  border: 2px #607d8b solid;
+  margin: 0px 10px 10px -2px;
+  box-shadow: 1px 1px 2px 1px lightgray;
+}
+
+.hrfolderIcon {
+  font-size: 18px;
+  color: #607d8b;
+}
+
+.hrfolderIcon:hover {
+  color: black;
+}
+
+.HRUpload-Button {
+  display: flex;
+  align-items: center;
+  background-color: #f8f4f4;
+  height: 30px;
+  width: 40px;
+  border: 2px #607d8b solid;
+  border-radius: 8px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.addHRCircleIcon {
+  display: flex;
+  font-size: 18px;
+  color: #607d8b;
+}
+
+.addHRCircleIcon:hover {
+  color: black;
+}
+/*# sourceMappingURL=HRFileupload.css.map */

@@ -1,0 +1,16 @@
+.hrContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.hrtableContainer {
+  display: flex;
+  width: 1200px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=HR.css.map */
